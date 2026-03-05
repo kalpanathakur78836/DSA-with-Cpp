@@ -1,23 +1,21 @@
 #include<iostream>
 using namespace std;
-
 //function signature
-void printcounting(int num){
-
+void printcounting(int n ){
 //function body
-for(int i = 1;i<=num; i++){
-    cout<<i<<" ";
+    for(int i = 1; i<=n; i++){
+        cout<<i <<" ";
+    }
+}
 
 
-}
-cout<<endl;
-}
+
 int main(){
-    int n;
+    int n ;
     cin>>n;
-    
-    //functioncall
-printcounting(n);
 
-return 0;
+    printcounting(n);
+
+    return 0;
+
 }
